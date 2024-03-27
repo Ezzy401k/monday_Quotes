@@ -10,7 +10,7 @@ receiver = input("Receiver Email: ")
 now = dt.datetime.now()
 date = now.weekday()
 
-if date == 0:
+if date == 1:
     with open("quotes.txt") as file:
         quote = file.readlines()
 
